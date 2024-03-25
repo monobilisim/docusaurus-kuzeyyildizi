@@ -11,3 +11,4 @@ genel yayın yönetmeni: vedat kamer
 editörler: özgür macit, vedat kamer  
 
 issn: 1303-3476
+
