@@ -1,13 +1,12 @@
 ---
 sidebar_position: 1
-title: "sayı: dört - ağustos/eylül 2002"
-slug: "/dergi/4"
+title: "sayı: beş - ekim/kasım 2002"
+slug: "/dergi/5"
 ---
 
-![](../../static/img/ky04_00a_zaferyalcinpinar.jpg)
-![](../../static/img/ky04_00b_ezgialtinsoy.jpg)  
-![](../../static/img/ky04_36_erdalkuruzu.jpg)
-
+![](/img/ky05_00_zaferyalcinpinar.jpg)
+![](/img/ky05_00a_yolgezer.jpg)  
+![](/img/ky05_36_nurpolat.jpg)
 
 sahibi ve sorumlu yazı işleri müdürü: ulaş nikbay  
 genel yayın yönetmeni: vedat kamer  

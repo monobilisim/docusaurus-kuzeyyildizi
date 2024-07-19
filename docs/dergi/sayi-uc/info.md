@@ -1,10 +1,10 @@
 ---
 sidebar_position: 1
-title: "sayı: iki - nisan/mayıs 2002"
-slug: "/dergi/2"
+title: "sayı: üç - haziran/temmuz 2002"
+slug: "/dergi/3"
 ---
 
-![kapak](./../../static/img/ky02_00a_zaferyalcinpinar.jpg)![arka](./../../static/img/ky02_00b_zaferyalcinpinar.jpg)
+![kapak](/img/ky03_00a_zaferyalcinpinar.jpg)![arka](/img/ky03_36.jpg)
 
 sahibi ve sorumlu yazı işleri müdürü: ulaş nikbay  
 genel yayın yönetmeni: vedat kamer  
