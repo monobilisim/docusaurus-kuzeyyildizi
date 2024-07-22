@@ -78,6 +78,18 @@ const config = {
             position: 'left',
             label: 'Dergi',
           },
+          {
+            type: 'docSidebar',
+            sidebarId: 'ozgedirikkitabiSidebar',
+            position: 'left',
+            label: 'Özge Dirik Kitabı',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'pdfdosyalariSidebar',
+            position: 'left',
+            label: 'PDF Dosyalari',  
+          },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
