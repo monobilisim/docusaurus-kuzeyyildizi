@@ -88,7 +88,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'pdfdosyalariSidebar',
             position: 'left',
-            label: 'PDF Dosyalari',  
+            label: 'PDF Dosyaları',  
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -107,6 +107,15 @@ const config = {
               {
                 label: 'Dergi',
                 to: '/dergi',
+              },
+              {
+                label: 'Özge Dirik Kitabı',   
+                to: '/ozgedirikkitabi/ozge-dirik-kitabi-nokta-duragi',
+              },
+              {
+                label: 'PDF Dosyaları',
+                to: '/pdfdosyalari/pdf-dosyalari',
+                
               },
             ],
           },
