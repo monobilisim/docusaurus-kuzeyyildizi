@@ -4,7 +4,7 @@ title: "sayı: üç - haziran/temmuz 2002"
 slug: "/dergi/3"
 ---
 
-![kapak](./../../static/img/ky03_00a_zaferyalcinpinar.jpg)![arka](./../../static/img/ky03_36.jpg)
+![kapak](/img/ky03_00a_zaferyalcinpinar.jpg)![arka](/img/ky03_36.jpg)
 
 sahibi ve sorumlu yazı işleri müdürü: ulaş nikbay  
 genel yayın yönetmeni: vedat kamer  

@@ -4,9 +4,9 @@ title: "sayı: beş - ekim/kasım 2002"
 slug: "/dergi/5"
 ---
 
-![](../../static/img/ky05_00_zaferyalcinpinar.jpg)
-![](../../static/img/ky05_00a_yolgezer.jpg)  
-![](../../static/img/ky05_36_nurpolat.jpg)
+![](/img/ky05_00_zaferyalcinpinar.jpg)
+![](/img/ky05_00a_yolgezer.jpg)  
+![](/img/ky05_36_nurpolat.jpg)
 
 sahibi ve sorumlu yazı işleri müdürü: ulaş nikbay  
 genel yayın yönetmeni: vedat kamer  
