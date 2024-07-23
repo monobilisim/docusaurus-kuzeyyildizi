@@ -66,10 +66,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'kuzey yıldızı',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Kuzey Yıldızı Logo',
+          src: 'img/ky01_01_atayuludokumaci.png',
         },
         items: [
           {
