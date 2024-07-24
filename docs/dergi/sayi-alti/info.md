@@ -11,3 +11,10 @@ sahibi ve sorumlu yazı işleri müdürü: zafer yalçınpınar
 yayıma hazırlayan: vedat kamer  
 seçki: ulaş nikbay – zafer yalçınpınar  
 düzelti: akın demirci  
+
+issn: 1303-3476
+
+---
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList />
