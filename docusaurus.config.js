@@ -4,7 +4,8 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
+import path from 'path';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -48,6 +49,7 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          routeBasePath: '/blog',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -90,7 +92,7 @@ const config = {
             position: 'left',
             label: 'PDF Dosyaları',  
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -115,7 +117,6 @@ const config = {
               {
                 label: 'PDF Dosyaları',
                 to: '/pdfdosyalari/pdf-dosyalari',
-                
               },
             ],
           },
@@ -157,30 +158,25 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
-    plugins: [
-  [
-    require.resolve("@cmfcmf/docusaurus-search-local"),
-    {
-      indexDocs: true,
-      indexDocSidebarParentCategories: 0,
-      includeParentCategoriesInPageTitle: false,
-      indexBlog: true,
-      indexPages: false,
-      language: "tr",
-      style: undefined,
-      maxSearchResults: 1000,
-      lunr: {
-        tokenizerSeparator: /[\s\-]+/,
-        b: 0.75,
-        k1: 1.2,
-        titleBoost: 5,
-        contentBoost: 1,
-        tagsBoost: 0,
-        parentCategoriesBoost: 2,
-      },
-    },
+
+  plugins: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      /** @type {import('@easyops-cn/docusaurus-search-local').PluginOptions} */
+      ({
+        hashed: true,
+        language: ['tr'],
+        indexDocs: true,
+        indexBlog: true,
+        indexPages: false,
+        searchBarPosition: 'right',
+        docsRouteBasePath: '/',
+        blogRouteBasePath: '/docs',
+        searchResultLimits: 6,
+      }),
+    ],
   ],
-],
 };
 
 export default config;
+
