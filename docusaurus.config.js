@@ -157,6 +157,30 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+    plugins: [
+  [
+    require.resolve("@cmfcmf/docusaurus-search-local"),
+    {
+      indexDocs: true,
+      indexDocSidebarParentCategories: 0,
+      includeParentCategoriesInPageTitle: false,
+      indexBlog: true,
+      indexPages: false,
+      language: "tr",
+      style: undefined,
+      maxSearchResults: 1000,
+      lunr: {
+        tokenizerSeparator: /[\s\-]+/,
+        b: 0.75,
+        k1: 1.2,
+        titleBoost: 5,
+        contentBoost: 1,
+        tagsBoost: 0,
+        parentCategoriesBoost: 2,
+      },
+    },
+  ],
+],
 };
 
 export default config;

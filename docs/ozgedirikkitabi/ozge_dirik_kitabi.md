@@ -9,7 +9,7 @@ slug: "ozge-dirik-kitabi-nokta-duragi"
 ayrı üşüdü geceleri, şiir olup sustuk. 12 ocak 2005'te birbirimizin
 gözlerinin içine baktık, o anda alevlenmişti yıldızımız. «[özge dir'ik
 bütün şiirleri'ne başlangıç
-denemesi](/dergi/11/ozge.dirikin.butun.siirlerine.baslangic.denemesi)»
+denemesi](/dergi/sayi-11/özge%20dirikin-bütün-şiirlerine-başlangıç-denemesi)»
 yaptık nisan 2005'te. özge, şiirlerini yayımlatmadan önce [kuzey yıldızı
 yazarlar grubuna](http://groups.yahoo.com/group/kyyazarlari) gönderirdi,
 orada okurduk ilk önce. bu kaynağın matbu olmamasından ötürü bunu
@@ -76,14 +76,13 @@ vasiyetindeki listeyi «nokta durağı» olarak yayımlamak doğru
 olmayacaktır, çünkü mart 2003 - ağustos 2004 arasında yazdığı nice güzel
 şiiri dışarda bırakmış oluruz. deniz dirik ile hazırlamış olduğu liste
 maalesef kayıp. bununla birlikte 25 ağustos'ta yazdığı
-«[makas](/dergi/11/makas)» isimli şiir ile, 26 ağustos'ta yazdığı
-«[ilham nöbetleri](/dergi/11/ilham.nobetleri)» isimli iki şiirin bu
+«[makas](/dergi/sayi-11/sub8/makas-özge-dirik)» isimli şiir ile, 26 ağustos'ta yazdığı
+«[ilham nöbetleri](/dergi/sayi-11/sub8/ilham-nöbetleri-özge-dirik)» isimli iki şiirin bu
 listede olduklarını düşünmüyoruz. kitabı oluştururken şöyle bir yol
 takip edeceğiz:
 
 1\. özge'nin bütün şiirlerini bu sayfada toplayacağız. bu yüzden lütfen
-elinizde özge'nin şiiri varsa ve bu sayfada mevcut değilse bize
-[ulaştırın](/iletisim). şiir gönderirken lütfen kaynağını belirtin,
+elinizde özge'nin şiiri varsa ve bu sayfada mevcut değilse bize. şiir gönderirken lütfen kaynağını belirtin,
 mümkünse yayımlandığı derginin kapak sayfasını, özge'nin şiirinin olduğu
 sayfaları tarayıp lütfen gönderin.
 
