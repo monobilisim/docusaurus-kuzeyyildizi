@@ -1,18 +1,16 @@
 ---
-sidebar_position: 1
 title: "sayı: sekiz - mayıs/haziran 2003"
 slug: "/dergi/8"
 ---
 
 
-![](/img/ky08_00_zaferyalcinpinar.jpg)
-![](/img/ky08_36_zaferyalcinpinar.jpg)
+![](/img/8_kapak.jpg)
+![](/img/8_kapak_2.jpg)
 
 sahibi ve sorumlu yazı işleri müdürü: zafer yalçınpınar  
 yayıma hazırlayan: vedat kamer  
 düzelti: akın demirci  
 
-issn: 1303-3476
 
 ---
 import DocCardList from '@theme/DocCardList';
