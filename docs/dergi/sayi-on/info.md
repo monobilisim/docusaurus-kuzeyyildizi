@@ -4,8 +4,8 @@ title: "sayı: on - ocak/şubat 2004"
 slug: "/dergi/10"
 ---
 
-![](../../static/img/ky10_00.jpg)
-![](../../static/img/ky10_33a.jpg)
+![](/img/ky10_00.jpg)
+![](/img/ky10_33a.jpg)
 
 
 sahibi ve sorumlu yazı işleri müdürü: zafer yalçınpınar  

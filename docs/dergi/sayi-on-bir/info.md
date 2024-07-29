@@ -4,9 +4,9 @@ title: "sayı: on bir - nisan/mayıs 2005"
 slug: "/dergi/11"
 ---
 
-![](../../static/img/ky11_00_vedatkamer.jpg)
-![](../../static/img/ky11_00a.jpg)  
-![](../../static/img/ky11_33_caglacomert.jpg)
+![](/img/ky11_00_vedatkamer.jpg)
+![](/img/ky11_00a.jpg)  
+![](/img/ky11_33_caglacomert.jpg)
 
 
 sahibi ve sorumlu yazı işleri müdürü: vedat kamer  
