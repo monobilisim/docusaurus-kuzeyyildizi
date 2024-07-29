@@ -2,6 +2,7 @@
 sidebar_position: 1
 title: "sayı: iki - nisan/mayıs 2002"
 slug: "/dergi/2"
+
 ---
 
 ![kapak](/img/ky02_00a_zaferyalcinpinar.jpg)![arka](/img/ky02_00b_zaferyalcinpinar.jpg)
