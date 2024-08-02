@@ -4,13 +4,14 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
+import path from 'path';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Kuzey Yıldızı',
+  title: 'kuzey yıldızı',
   tagline: 'edebiyat dergisi',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/ky01_01_atayuludokumaci.png',
 
   // Set the production url of your site here
   url: 'https://docusaurus-kuzeyyildizi.github.io',
@@ -48,6 +49,7 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          routeBasePath: '/blog',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -64,21 +66,33 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/ky01_01_atayuludokumaci.png',
       navbar: {
-        title: 'My Site',
+        title: 'kuzey yıldızı',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Kuzey Yıldızı Logo',
+          src: 'img/ky01_01_atayuludokumaci.png',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'dergiSidebar',
             position: 'left',
-            label: 'Dergi',
+            label: 'dergi',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            type: 'docSidebar',
+            sidebarId: 'ozgedirikkitabiSidebar',
+            position: 'left',
+            label: 'özge dirik kitabı',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'pdfdosyalariSidebar',
+            position: 'left',
+            label: 'pdf dosyaları',  
+          },
+          { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -90,40 +104,48 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'docs',
             items: [
               {
-                label: 'Dergi',
+                label: 'dergi',
                 to: '/dergi',
+              },
+              {
+                label: 'özge dirik kitabı',   
+                to: '/ozgedirikkitabi/ozge-dirik-kitabi-nokta-duragi',
+              },
+              {
+                label: 'pdf dosyaları',
+                to: '/pdfdosyalari/pdf-dosyalari',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'community',
             items: [
               {
-                label: 'Stack Overflow',
+                label: 'stack overflow',
                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
               {
-                label: 'Discord',
+                label: 'discord',
                 href: 'https://discordapp.com/invite/docusaurus',
               },
               {
-                label: 'Twitter',
+                label: 'twitter',
                 href: 'https://twitter.com/docusaurus',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'more',
             items: [
               {
-                label: 'Blog',
+                label: 'blog',
                 to: '/blog',
               },
               {
-                label: 'GitHub',
+                label: 'github',
                 href: 'https://github.com/facebook/docusaurus',
               },
             ],
@@ -136,6 +158,25 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+
+  plugins: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      /** @type {import('@easyops-cn/docusaurus-search-local').PluginOptions} */
+      ({
+        hashed: true,
+        language: ['tr'],
+        indexDocs: true,
+        indexBlog: true,
+        indexPages: false,
+        searchBarPosition: 'right',
+        docsRouteBasePath: '/',
+        blogRouteBasePath: '/docs',
+        searchResultLimits: 6,
+      }),
+    ],
+  ],
 };
 
 export default config;
+
