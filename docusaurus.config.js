@@ -14,7 +14,7 @@ const config = {
   favicon: 'img/ky01_01_atayuludokumaci.png',
 
   // Set the production url of your site here
-  url: 'https://docusaurus-kuzeyyildizi.github.io',
+  url: 'https://monobilisim.github.io/docusaurus-kuzeyyildizi',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
