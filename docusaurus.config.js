@@ -14,14 +14,15 @@ const config = {
   favicon: 'img/ky01_01_atayuludokumaci.png',
 
   // Set the production url of your site here
-  url: 'https://monobilisim.github.io/docusaurus-kuzeyyildizi',
+  url: 'https://monobilisim.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/docusaurus-kuzeyyildizi/',
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'monobilisim', // Usually your GitHub org/user name.
   projectName: 'docusaurus-kuzeyyildizi', // Usually your repo name.
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
